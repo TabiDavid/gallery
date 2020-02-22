@@ -1,4 +1,40 @@
 /*size for phones and another devices*/
+body {
+	background-color: #bbb;
+	padding: 0;
+	margin: 0;
+}
+
+#pancake{
+
+    position: relative;
+    margin: 0 auto;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(241, 241, 114);
+    
+}
+header {
+	background-color: #BF1363;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	
+}
+h2 {
+    text-align: center;
+    font-size: x-large;
+}
+
+    footer div{
+        text-align: center;
+        padding: 10px;
+        background-color: #BF1363;
+    
+        }
 .people img[data-src] {
     filter: blur(0.2em);
   }
@@ -9,15 +45,53 @@
     padding: 5px;
 }
 
-@media only screen and (min-width: 22em) {
+/*here is the code for nav bar */
+nav {
+    margin: 0 auto;
+    max-width: 100%;
+    background-color: #000;
    
-.containpeople{
+}
+.navigation {
+    list-style: block;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+.navigation li:first-child {
+    display: block;
+    
+}
+.navigation li {
+    display: none;
+    
+}
+.navigation a {
+    display: block;
+    color:yellow;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    text-align: center;
+}
+.navigation a:hover {
+    color: #000;
+    background-color: #fff;
+    font-weight: 700;
+}
 
+.responsive li {
+    display: block;
+}   
+
+/*
+gallery image code
+*/
+
+.containpeople {
+    margin: 0 auto;
+    display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 12px;
-}
-.people{
-    margin: auto;
-}
+    text-align: center;
 }

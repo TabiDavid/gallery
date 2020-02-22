@@ -1,21 +1,8 @@
 /*size for screen such as: tables*/
 
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 32.5em) {
 
-   
 
-  /*  .headings h1 {
-        font-size: 1.6rem;
-        margin: 0 0 0 17px;
-        text-align: center;
-    }
-    .m {
-    
-        margin-left: 20px;
-        font-size: .9rem;
-        text-align: center;
-    }
-    */
 /* hamburguer*/
 nav {
     background-color: black;
@@ -26,7 +13,7 @@ nav {
     display: flex;
 }
 .navigation li {
-    display: block; /* needed because of state in small view */
+    display: block; 
     flex: 1 1 100%;
 }
 .navigation li a {
@@ -39,8 +26,11 @@ nav {
     display: none;
 }
 
-    
-    
 
+.containpeople {
+    max-width: 650px;
+    grid-template-columns: 1fr 1fr;
+}
+    
 }
     
