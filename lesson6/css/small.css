@@ -1,4 +1,14 @@
 /*size for phones and another devices*/
+.people img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+.people img {
+    filter: blur(0em);
+    transition: filter 3s;
+    padding: 5px;
+}
+
 @media only screen and (max-width: 22em) {
     .forecast{
         display: none;
