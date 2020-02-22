@@ -2,22 +2,21 @@
 
 @media only screen and (min-width: 48em) {
 
-   header {
-    display: flex;
-    flex-direction: column;
-   }
-  
-    .headings h1 {
+   
+
+  /*  .headings h1 {
         font-size: 1.6rem;
         margin: 0 0 0 17px;
+        text-align: center;
     }
     .m {
     
         margin-left: 20px;
         font-size: .9rem;
+        text-align: center;
     }
+    */
 /* hamburguer*/
-
 nav {
     background-color: black;
     margin: 0;
