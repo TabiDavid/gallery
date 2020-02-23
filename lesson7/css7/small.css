@@ -17,24 +17,32 @@ body {
     
 }
 header {
-	background-color: #BF1363;
+	background-color: rgb(80, 35, 56);
     padding: 5px 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Trade Winds', ;
+    font-family: 'Trade Winds' ;
+    color: honeydew;
 	
 }
 h2 {
     text-align: center;
     font-size: x-large;
+    font-family: 'Roboto' ;
 }
 
+
+
     footer div{
+
         text-align: center;
         padding: 10px;
-        background-color: #BF1363;
-    
+        background-color: rgb(80, 35, 56);
+        font-family: 'Trade Winds' ;
+        color: honeydew;
+        
+
         }
 .people img[data-src] {
     filter: blur(0.2em);
@@ -70,7 +78,7 @@ nav {
 }
 .navigation a {
     display: block;
-    color:yellow;
+    color:rgb(83, 221, 231);
     padding: 0.75rem;
     text-align: left;
     text-decoration: none;
@@ -89,7 +97,11 @@ nav {
 /*
 gallery image code
 */
-
+main {
+    background-color: grey;
+    padding: 5px;
+    
+}
 .containpeople {
     margin: 0 auto;
     display: grid;

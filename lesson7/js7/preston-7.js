@@ -35,4 +35,4 @@ var weekdays = ['Sunday', 'Moday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday',
         
         }
         
-        WebFont.load({ google: { families: ['Montserrat', 'Martel'] } });
+        WebFont.load({ google: { families: ['Trade Winds', 'Roboto'] } });
